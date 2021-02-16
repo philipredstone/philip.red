@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+   <link rel="manifest" href="./assets/favicon/site.webmanifest">
+   <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+   <meta name="msapplication-TileColor" content="#2b5797">
+   <meta name="msapplication-config" content="./assets/favicon/browserconfig.xml">
+   <meta name="theme-color" content="#ffffff">
+   <title>philip rothstein</title>
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+</head>
+
+<body>
+   <nav class="navbar">
+      <div class="navbar_inner">
+         <ul class="navbar_list">
+            <li class="navbar_list_item logo">
+               <img onclick="location.href='#'" src="./assets/images/logo_minimal_small.png" alt="">
+            </li>
+            <li class="navbar_list_item hamburger">
+               <span onclick="openNav()" class="mdi mdi-menu"></span>
+            </li>
+            <li class="navbar_list_item is-active" id="home_nav">
+               <button type="button" onclick="location.href='#home'" class="navbar_list_item_link">Home</button>
+            </li>
+            <li class="navbar_list_item" id="work_nav">
+               <button type="button" onclick="location.href='#work'" class="navbar_list_item_link">Work</button>
+            </li>
+            <li class="navbar_list_item" id="about_nav">
+               <button type="button" onclick="location.href='#about'" class="navbar_list_item_link">About</button>
+            </li>
+            <li class="navbar_list_item" id="contact_nav">
+               <button type="button" onclick="location.href='#contact'" class="navbar_list_item_link">Contact</button>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <div class="site main" id="home">
+      <h1>PHILIP ROTHSTEIN<h1>
+      <h2>web and web-app design and development<h2>
+      <h2>based in germany<h2>
+   </div>
+   <div class="site main" id="work">
+      <h1>MY WORK<h1>
+      <h2>• app development for<a target="_blank" href="https://www.bgh-windeck.de/schulleben/detailansicht/vertretungsplan-app-zur-nutzung-am-bodelschwingh-gymnasium-herchen-freigegeben">BGH-Windeck</a><h2>
+      <h2>• more work at<a target="_blank" href="https://github.com/philipredstone">GitHub</a><h2> 
+   </div>
+   <div class="site main" id="about">
+      <h1>About Me</h1>
+      <h2 id="info"></h2>
+      <h2>i started programming at the age of 9.</h2>
+   </div>
+   <div class="site main" id="contact">
+      <h1>Contact</h1>
+      <h2>email: <a href="mailto:hi@philip.red">hi@philip.red</a></h2>
+      <h2>twitter: <a target="_blank" href="https://twitter.com/philipredstone">@philipredstone</a></h2>
+   </div>
+   <div class="login">
+      <div class="login_inner">
+         <ul class="login_list" id="login">
+            <li class="login_list_item" title="Login">
+               <img id="profile" onclick="ProfileHandler()" src="./assets/images/google_login.png" alt="">
+            </li>
+         </ul>
+      </div>
+   </div>
+   <div class="notification">
+      <div class="notification-text"></div>
+   </div>
+   <nav class="footer">
+      <div class="footer_inner">
+         <ul class="footer_list">
+            <li class="footer_list_item" title="GitHub" style="margin-right: 10px;">
+               <img id="profile" onclick="openLink('https://github.com/philipredstone')"
+                  src="./assets/images/github.png" alt="">
+            </li>
+            <li class="footer_list_item" title="Instagram">
+               <img id="profile" onclick="openLink('https://instagram.com/philipredstone')"
+                  src="./assets/images/instagram.png" alt="">
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+   <script src="./assets/js/app.js"></script>
+</body>
+</html>
