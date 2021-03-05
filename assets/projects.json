@@ -1,0 +1,61 @@
+[ 
+  {
+    "name": "App Development for my school (BGH-Windeck)",
+    "description": "an app for students of my school. you can view your current free periods and substitutions",
+    "links": [{
+        "Article": "https://www.bgh-windeck.de/schulleben/detailansicht/vertretungsplan-app-zur-nutzung-am-bodelschwingh-gymnasium-herchen-freigegeben",
+        "App Store": "https://apps.apple.com/de/app/bgh-app/id1534009614",
+        "Play Store": "https://play.google.com/store/apps/details?id=de.prtex.bgh_app"
+    }],
+    "topics": ["Backend Development", "Frontend Development", "App Development", "App Publication", "iOS", "Android"],
+    "languages": ["HTML", "Java", "JavaScript", "PHP", "Swift","CSS"]
+  },
+  {
+    "name": "Android App to get the newest Information about Covid-19 (Infekt-Info)",
+    "description": "development of the backend API which serves the current Covid-19 cases and general information about it. I also helped with the general design",
+    "links": [{
+        "Play Store": "https://play.google.com/store/apps/details?id=com.wdtec.infektinfo"
+    }],
+    "topics": ["Backend Development", "App Development", "Android", "WHO", "RKI"],
+    "languages": ["Java", "PHP"]
+  },
+  {
+    "name": "Attilio's Mare Monti",
+    "description": "web presence for an local restaurant.",
+    "links": [{
+        "Website": "https://ristorante-mare-monti.de/"
+    }],
+    "topics": ["Frontend Development", "Web Presence"],
+    "languages": ["CSS", "HTML", "JavaScript", "WordPress"]
+  },
+  {
+    "name": "DatabaseViewer",
+    "description": "lightweight web-based database viewer",
+    "links": [{
+        "GitHub": "https://github.com/philipredstone/DatabaseViewer",
+        "Demo": "https://databaseviewer.hstin.de"
+    }],
+    "topics": ["Frontend Development", "MySQL"],
+    "languages": ["PHP"]
+  },
+  {
+    "name": "philip.red",
+    "description": "personal website and portfolio",
+    "links": [{
+        "GitHub": "https://github.com/philipredstone/philip.red",
+        "Homepage": "https://philip.red"
+    }],
+    "topics": ["Web Development", "Web Design"],
+    "languages": ["CSS", "HTML", "JavaScript"]
+  },
+  {
+    "name": "RS",
+    "description": "a lightweight and versatile discord bot",
+    "links": [{
+        "GitHub": "https://github.com/philipredstone/RS",
+        "Homepage": "http://rs.defyu.se"
+    }],
+    "topics": ["Discord.js", "OAuth2"],
+    "languages": ["CSS", "HTML", "JavaScript"]
+  }
+]

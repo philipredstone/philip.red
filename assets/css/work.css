@@ -1,0 +1,234 @@
+
+/* importing font styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Material+Icons&display=swap");
+
+/* setting color variables */
+:root {
+    --background-color: #1C1D1E;
+    --text-color: #FEFEFE;
+    --text-color-dark: #FEFEFE55;
+    --accent-color: #ff784f;
+    --accent-color-alpha: #ff784f77;
+    --navbar-bg: #212425;
+    --notification-color: #ad0000;
+    --divider-bg: #242627;
+}
+
+/* setting general styling of every element */
+* {
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+}
+
+
+
+/* setting body background variable */
+body {
+    background: var(--background-color);
+}
+
+/* styling the main page element */
+.site {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.site.main {
+    padding-top: 15vh;
+    line-height: 10vh;
+    margin-bottom: 10vh;
+    line-height: 4vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+h1 {
+    font-size: 30px;
+    color: var(--text-color-dark);
+    margin-left: 0px;
+    overflow: hidden;
+    border-bottom: 1px solid var(--text-color-dark);
+}
+
+/* general styling of login, navbar and footer element */
+.navbar {
+    display: inline-block;
+    z-index: 900;
+    background-color: var(--navbar-bg);
+    border-radius: 5px;
+    padding: .6rem;
+    transform: translateZ(0);
+    opacity: 1;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+/* active button styling */
+.is-active {
+    background-color: var(--background-color);
+    color: var(--accent-color);
+    transition: all 0.2s ease-in;
+}
+
+/* styling of login, navbar and footer inner */
+.navbar_inner {
+    position: relative;
+}
+
+/* styling of login, navbar and footer list */
+.navbar_list {
+    font-size: 0;
+}
+
+/* styling of login, navbar and footer button, general a and logo */
+button {
+    height: 40px;
+    display: inline-block;
+    overflow: visible;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    background: none transparent;
+    color: inherit;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: none;
+    font: inherit;
+    line-height: inherit;
+    line-height: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* general styling of login, navbar and footer list item */
+.navbar_list_item{
+    display: inline-block;
+    font-size: .9rem;
+    line-height: 1;
+    transition: color .3s cubic-bezier(.4,0,0,1);
+    border-radius: 5px !important;
+}
+
+/* styling of login, navbar and footer list item link */
+.navbar_list_item_link {
+    padding: .6rem 1.2rem;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    color: #E8E6E3;
+}
+
+/* styling of login, navbar and footer list item link on hover */
+.navbar_list_item_link:hover {
+    color: var(--accent-color);
+}
+
+/* setting up general table styling */
+table {
+    border: none;
+    border-collapse:collapse;
+}
+
+/* setting font-weight to bolden titels */
+table td.table-row-labels {
+    font-weight: 700
+}
+
+/* defining width between 300px and 100% */
+.rwd-table {
+    min-width: 300px;
+    width: 100%
+}
+
+/* setting up each td of table to be a block */
+.rwd-table td {
+    display: block;
+    min-width: 100%;
+}
+
+/* adding custom padding to the last child to allow better scroll and user accessibility */
+.rwd-table td:last-child {
+    padding-bottom: .5em
+}
+
+/* align text */
+.rwd-table td {
+    text-align: left
+}
+
+/* styling each element inside the table */
+td, tr, a {
+    border: none;
+    color: var(--text-color-dark);
+}
+
+
+/* styling of table title elements */
+.table-row-labels {
+    margin-top: 4rem;
+    margin-left: 0px;
+    font-size: 120%;
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+/* adding launch icon after links */
+a::after {
+    font-family: 'Material Icons';
+    content: "launch";
+    line-height: .5;
+    color: var(--text-color-dark);
+}
+
+/* set text color of inner table labels */
+td::before {
+    color: var(--text-color);
+}
+
+/* adding 'Description' label */
+td:nth-child(2)::before {
+    margin-top: 1vh;
+    display: block;
+    content: "Description:";
+}
+
+/* adding 'Topics' label */
+td:nth-child(3)::before {
+    margin-top: 1vh;
+    display: block;
+    content: "Topics:";
+}
+
+/* adding 'Languages' label */
+td:nth-child(4)::before {
+    margin-top: 1vh;
+    display: block;
+    content: "Languages:";
+}
+
+/* adding 'Links' label */
+td:nth-child(5)::before {
+    margin-top: 1vh;
+    display: block;
+    content: "Links:";
+}
+
+
+/* styling for mid size screens */
+@media (max-width:1281px) { 
+    .site {
+        margin-left: .1rem !important;
+        margin-right: .1rem !important;
+    }
+}

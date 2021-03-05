@@ -14,7 +14,6 @@
    <meta name="theme-color" content="#ffffff">
    <title>philip rothstein</title>
    <link rel="stylesheet" href="./assets/css/style.css">
-   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 </head>
 
 <body>
@@ -22,7 +21,7 @@
       <div class="navbar_inner">
          <ul class="navbar_list">
             <li class="navbar_list_item logo">
-               <img onclick="location.href='#'" src="./assets/images/logo_minimal_small.png" alt="">
+               <img onclick="location.href='#'" src="./assets/images/logo_minimal_small.png" alt="" height="40px" width="40px">
             </li>
             <li class="navbar_list_item hamburger">
                <span onclick="openNav()" class="mdi mdi-menu"></span>
@@ -30,60 +29,51 @@
             <li class="navbar_list_item is-active" id="home_nav">
                <button type="button" onclick="location.href='#home'" class="navbar_list_item_link">Home</button>
             </li>
-            <li class="navbar_list_item" id="work_nav">
-               <button type="button" onclick="location.href='#work'" class="navbar_list_item_link">Work</button>
-            </li>
             <li class="navbar_list_item" id="about_nav">
                <button type="button" onclick="location.href='#about'" class="navbar_list_item_link">About</button>
             </li>
             <li class="navbar_list_item" id="contact_nav">
                <button type="button" onclick="location.href='#contact'" class="navbar_list_item_link">Contact</button>
             </li>
+            <li class="navbar_list_item" id="work_nav">
+               <button type="button" onclick="location.href='./work'" class="navbar_list_item_link link">Work</button>
+            </li>
          </ul>
       </div>
    </nav>
    <div class="site main" id="home">
-      <h1>PHILIP ROTHSTEIN<h1>
-      <h2>web and web-app design and development<h2>
-      <h2>based in germany<h2>
+      <noscript>Sorry, your browser does not support JavaScript!</noscript>
+      <h1>PHILIP ROTHSTEIN</h1>
+      <h2>web and web-app design and development</h2>
+      <h2>based in germany 🚩</h2>
    </div>
-   <div class="site main" id="work">
-      <h1>MY WORK<h1>
-      <h2>• app development for<a target="_blank" href="https://www.bgh-windeck.de/schulleben/detailansicht/vertretungsplan-app-zur-nutzung-am-bodelschwingh-gymnasium-herchen-freigegeben">BGH-Windeck</a><h2>
-      <h2>• more work at<a target="_blank" href="https://github.com/philipredstone">GitHub</a><h2> 
-   </div>
+   <div class="divider"></div>
    <div class="site main" id="about">
-      <h1>About Me</h1>
-      <h2 id="info"></h2>
-      <h2>i started programming at the age of 9.</h2>
+      <h1>ABOUT ME</h1>
+      <h2>hello, i am philip. 👋</h2>
+      <h2 style="max-width: 80%">currently, i'm a student with over 8 years of programming experience.</h2>
    </div>
+   <div class="divider"></div>
    <div class="site main" id="contact">
-      <h1>Contact</h1>
-      <h2>email: <a href="mailto:hi@philip.red">hi@philip.red</a></h2>
-      <h2>twitter: <a target="_blank" href="https://twitter.com/philipredstone">@philipredstone</a></h2>
+      <h1>CONTACT</h1>
+      <h2>email: <a href="mailto:hi@philip.red">hi@philip.red</a> 📧</h2>
+      <h2>twitter: <a target="_blank" href="https://twitter.com/philipredstone">@philipredstone</a> 🐦</h2>
    </div>
-   <div class="login">
-      <div class="login_inner">
-         <ul class="login_list" id="login">
-            <li class="login_list_item" title="Login">
-               <img id="profile" onclick="ProfileHandler()" src="./assets/images/google_login.png" alt="">
-            </li>
-         </ul>
-      </div>
-   </div>
-   <div class="notification">
-      <div class="notification-text"></div>
+   <div class="divider"></div>
+   <div class="site main" id="work">
+      <h1>MY WORK</h1>
+      <h2>see all of my previous work<a href="./work" class="link">here</a></h2>
    </div>
    <nav class="footer">
       <div class="footer_inner">
          <ul class="footer_list">
             <li class="footer_list_item" title="GitHub" style="margin-right: 10px;">
                <img id="profile" onclick="openLink('https://github.com/philipredstone')"
-                  src="./assets/images/github.png" alt="">
+                  src="./assets/images/github.png" alt="" height="40px" width="40px">
             </li>
             <li class="footer_list_item" title="Instagram">
                <img id="profile" onclick="openLink('https://instagram.com/philipredstone')"
-                  src="./assets/images/instagram.png" alt="">
+                  src="./assets/images/instagram.png" alt="" height="40px" width="40px">
             </li>
          </ul>
       </div>
@@ -91,8 +81,8 @@
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
-   <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
    <script src="./assets/js/app.js"></script>
 </body>
+
 </html>
