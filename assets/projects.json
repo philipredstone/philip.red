@@ -17,7 +17,7 @@
         "Play Store": "https://play.google.com/store/apps/details?id=com.wdtec.infektinfo"
     }],
     "topics": ["Backend Development", "App Development", "Android", "WHO", "RKI"],
-    "languages": ["Java", "PHP"]
+    "languages": ["Java", "PHP", "JavaScript", "Node.js"]
   },
   {
     "name": "Attilio's Mare Monti",
@@ -56,6 +56,6 @@
         "Homepage": "http://rs.defyu.se"
     }],
     "topics": ["Discord.js", "OAuth2"],
-    "languages": ["CSS", "HTML", "JavaScript"]
+    "languages": ["CSS", "HTML", "JavaScript", "Node.js"]
   }
 ]
